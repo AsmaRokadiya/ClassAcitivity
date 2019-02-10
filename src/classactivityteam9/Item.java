@@ -15,15 +15,15 @@ public class Item {
     String description;
     
     
-    public void getPriceofQuantity(){
+    public void getPriceforQuantity(){
     
-    System.out.println("Get Price Of Quality");
+    System.out.println("Get Price for Quality");
     
     }
     
-    public void getTex(){
+    public void getTax(){
     
-    System.out.println("Get Tex");
+    System.out.println("Get Tax");
         
     }
     
