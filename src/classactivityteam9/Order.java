@@ -16,6 +16,8 @@ public class Order {
     Date date;
     String status;
     
+    Customer c = new Customer();
+    
     public void SubTotal()
     {
     
