@@ -11,17 +11,24 @@ import java.util.*;
  *
  * @author 1895324
  */
-public class Order {
-    
-    Date date;
-    String status;
-    
-    Customer c = new Customer();
+public class OrderDetails {
+ 
+    int quantity;
+    String taxstatus;
+    Order o = new Order();
+    Item i = new Item();
     
     public void SubTotal()
     {
     
-        System.out.println("Sub Total of order");
+        System.out.println("Sub total of order");
+    
+    }
+    
+    public void weight()
+    {
+    
+        System.out.println("weight of order");
     
     }
     
@@ -32,17 +39,4 @@ public class Order {
     
     }
     
-    public void Total()
-    {
-    
-        System.out.println("Total of order");
-    
-    }
-    
-    public void TotalWeight()
-    {
-    
-        System.out.println("Total Weight of order");
-    
-    }
 }
