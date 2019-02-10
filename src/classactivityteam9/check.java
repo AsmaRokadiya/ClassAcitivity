@@ -9,14 +9,14 @@ package classactivityteam9;
  *
  * @author temp
  */
-public class check
+public class check extends Payment
 {
     String name;
     String bankid;
     
-    public void author()
+    public void authorized()
     {
-        System.out.println("athorization");
+        System.out.println("method for athorization");
     }
     
 }

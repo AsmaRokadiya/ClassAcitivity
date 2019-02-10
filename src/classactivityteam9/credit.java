@@ -9,11 +9,12 @@ import java.util.*;
  *
  * @author temp
  */
-public class credit 
+public class credit extends Payment
 {
     String name;
     String type;
-    String expdate;
+    Date expdate;
+    Payment p=new Payment();
     
     public void author()
     {
